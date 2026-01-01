@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <title>Fill Up Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://picsum.photos/1600/900?blur=5')
+        no-repeat center center/cover;
+    }
+    .form-container {
+      width: 250px;
+      margin: 52px auto;
+      background: #6be7e7;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea, button {
+      width: 93%;
+      margin-top: 5px;
+      padding: 8px;
+    }
+    button {
+      background: rgb(108, 213, 245);
+      color: white;
+      border: none;
+      margin-top: 15px;
+      cursor: pointer;
+      font-size: large;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Mag sign up para lumabas si Genie</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name" required>
+
+      <label>Email:</label>
+      <input type="email" name="email" required>
+
+      <label>Age:</label>
+      <input type="number" name="age">
+
+      <label>Message mo kay ginie:</label>
+      <textarea name="message"></textarea>
+
+      <button>
+      <a href="genie.html" class="button">Ipadala kay Genie</a>
+      </button>
+
+    </form>
+  </div>
+
+</body>
+</html>
